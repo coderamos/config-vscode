@@ -16,10 +16,6 @@ yarn install
 
 Learn how to install `yarn` through the [official documentation](https://yarnpkg.com/pt-BR/docs/install).
 
-Run the app in the development mode by opening [http://localhost:3333](http://localhost:3333) to view it in the browser.
-
-The page will reload if you make edits. You will also see any lint errors in the console.
-
 ## Font Used
 
 > [Fira Code V2](https://github.com/tonsky/FiraCode)
