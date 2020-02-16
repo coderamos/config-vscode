@@ -60,6 +60,18 @@ The page will reload if you make edits. You will also see any lint errors in the
 
 > [wakatime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
 
+## Other Settings
+
+See also the files:
+
+> `.eslintrc.js`
+
+> `.prettierrc`
+
+and
+
+> `jsconfig.json`
+
 ## About Me
 
 My Github profile: https://github.com/coderamos/
