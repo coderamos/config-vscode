@@ -24,6 +24,8 @@ Learn how to install `yarn` through the [official documentation](https://yarnpkg
 
 > [bracket pair colorizer 2 (bracket theme)](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 
+> [codesnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+
 > [color highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
 > [dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
