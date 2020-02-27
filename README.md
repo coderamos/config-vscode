@@ -54,6 +54,8 @@ Learn how to install `yarn` through the [official documentation](https://yarnpkg
 
 > [shades of purple (interface theme)](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)
 
+> [sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
+
 > [vscode styled components (styled components theme)](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 
 > [wakatime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
