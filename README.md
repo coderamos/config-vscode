@@ -68,9 +68,11 @@ See also the files:
 
 > `.prettierrc`
 
+> `jsconfig.json`
+
 and
 
-> `jsconfig.json`
+> `settings.json` (to replace the vscode configuration file settings)
 
 ## About Me
 
