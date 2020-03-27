@@ -40,6 +40,8 @@ Learn how to install `yarn` through the [official documentation](https://yarnpkg
 
 > [gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
+> [import cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+
 > [laserWave (interface theme)](https://marketplace.visualstudio.com/items?itemName=jaredkent.laserwave)
 
 > [material icon (icon theme)](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
