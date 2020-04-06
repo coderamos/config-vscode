@@ -20,6 +20,10 @@ Learn how to install `yarn` through the [official documentation](https://yarnpkg
 
 > [Fira Code V2](https://github.com/tonsky/FiraCode)
 
+or
+
+> [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
 ## Extensions Used
 
 > [bracket pair colorizer 2 (bracket theme)](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
