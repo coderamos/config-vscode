@@ -9,34 +9,37 @@
   "editor.fontLigatures": true,
   "explorer.compactFolders": false,
   "editor.mouseWheelZoom": true,
-  
-  // apply vertical lines to remember to break lines in very large codes
-  "editor.rulers": [80, 120],
-  "editor.formatOnSave": false,
 
+  // increases the font of the terminal
+  "terminal.integrated.fontSize": 14,
+
+  // apply vertical lines to remember to break lines in very large codes
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.formatOnSave": false,
   "eslint.packageManager": "yarn",
-  
   "[javascript]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
+      "source.fixAll.eslint": true
     }
   },
   "[javascriptreact]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
+      "source.fixAll.eslint": true
     }
   },
   "[typescript]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
+      "source.fixAll.eslint": true
     }
   },
   "[typescriptreact]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
+      "source.fixAll.eslint": true
     }
   },
-
   "files.associations": {
     ".sequelizerc": "javascript",
     ".stylelintrc": "json",
@@ -46,8 +49,7 @@
   // applies a visual signal to the left of the selected line
   "editor.renderLineHighlight": "gutter",
 
-  // increases the font of the terminal
-  "terminal.integrated.fontSize": 14,
+  "workbench.editor.labelFormat": "short",
 
   // defines the theme of the icons in the sidebar
   "workbench.iconTheme": "material-icon-theme",
@@ -56,26 +58,26 @@
   "window.zoomLevel": 0,
   "extensions.ignoreRecommendations": true,
   "emmet.syntaxProfiles": {
-    "javascript": "jsx",
+    "javascript": "jsx"
   },
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
+    "javascript": "javascriptreact"
   },
   "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
   "breadcrumbs.enabled": true,
   "git.enableSmartCommit": true,
   "editor.parameterHints.enabled": false,
-  "typescript.updateImportsOnFileMove.enabled": "never",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "explorer.confirmDragAndDrop": false,
-  "liveshare.featureSet": "insiders",
-  "explorer.confirmDelete": false,
-
+  "explorer.confirmDelete": true,
+  // "liveshare.featureSet": "insiders",
   "typescript.tsserver.log": "verbose",
   "javascript.suggest.autoImports": false,
   "typescript.suggest.autoImports": false,
-  "workbench.activityBar.visible": true
+  "workbench.activityBar.visible": true,
+  "editor.minimap.enabled": false
 }
