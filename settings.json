@@ -18,7 +18,7 @@
     80,
     120
   ],
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "eslint.packageManager": "yarn",
   "[javascript]": {
     "editor.codeActionsOnSave": {
