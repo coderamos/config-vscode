@@ -40,7 +40,8 @@ module.exports = {
     'react-native/no-raw-text': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
     'react/jsx-one-expression-per-line': 'off',
-    'camelcase': 'off',
+    camelcase: 'off',
+    'react/button-has-type': 'off',
     'import-helpers/order-imports': [
       'warn',
       {
