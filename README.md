@@ -52,6 +52,8 @@ or
 
 > [monokai pro (interface theme)](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode)
 
+> [omni (interface theme)](https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni)
+
 > [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 > [rocketseat reactjs (snippet)](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactJS)

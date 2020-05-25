@@ -1,23 +1,17 @@
 {
   // set the vscode theme
-  "workbench.colorTheme": "LaserWave Italic",
-  
+  "workbench.colorTheme": "Omni",
   // sets font size and family
-  "editor.fontSize": 14,
+  "editor.fontSize": 12,
   "editor.lineHeight": 24,
   "editor.fontFamily": "Fira Code Light",
   "editor.fontLigatures": true,
   "explorer.compactFolders": false,
   "editor.mouseWheelZoom": true,
-
   // increases the font of the terminal
   "terminal.integrated.fontSize": 14,
-
   // apply vertical lines to remember to break lines in very large codes
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
   "editor.formatOnSave": true,
   "eslint.packageManager": "yarn",
   "[javascript]": {
@@ -45,12 +39,9 @@
     ".stylelintrc": "json",
     ".prettierrc": "json"
   },
-
   // applies a visual signal to the left of the selected line
   "editor.renderLineHighlight": "gutter",
-
   "workbench.editor.labelFormat": "short",
-
   // defines the theme of the icons in the sidebar
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
