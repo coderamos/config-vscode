@@ -1,16 +1,12 @@
 {
-  // set the vscode theme
   "workbench.colorTheme": "Omni",
-  // sets font size and family
   "editor.fontSize": 12,
   "editor.lineHeight": 24,
   "editor.fontFamily": "Fira Code Light",
   "editor.fontLigatures": true,
   "explorer.compactFolders": false,
   "editor.mouseWheelZoom": true,
-  // increases the font of the terminal
   "terminal.integrated.fontSize": 14,
-  // apply vertical lines to remember to break lines in very large codes
   "editor.rulers": [80, 120],
   "editor.formatOnSave": true,
   "eslint.packageManager": "yarn",
@@ -19,30 +15,33 @@
       "source.fixAll.eslint": true
     }
   },
+
   "[javascriptreact]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     }
   },
+
   "[typescript]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     }
   },
+
   "[typescriptreact]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     }
   },
+
   "files.associations": {
     ".sequelizerc": "javascript",
     ".stylelintrc": "json",
     ".prettierrc": "json"
   },
-  // applies a visual signal to the left of the selected line
+
   "editor.renderLineHighlight": "gutter",
   "workbench.editor.labelFormat": "short",
-  // defines the theme of the icons in the sidebar
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "editor.tabSize": 2,
@@ -51,9 +50,11 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
+
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "gitlens.codeLens.recentChange.enabled": false,
@@ -65,10 +66,32 @@
   "terminal.integrated.shell.osx": "/bin/zsh",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": true,
-  // "liveshare.featureSet": "insiders",
   "typescript.tsserver.log": "verbose",
   "javascript.suggest.autoImports": false,
   "typescript.suggest.autoImports": false,
   "workbench.activityBar.visible": true,
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+
+  "material-icon-theme.folders.associations": {
+    "dtos": "typescript",
+    "dtosfakes": "mock",
+    "entities": "class",
+    "grpc": "pipe",
+    "http": "container",
+    "infra": "app",
+    "migrations": "tools",
+    "modules": "components",
+    "modulesimplementations": "core",
+    "protos": "pipe",
+    "repositories": "mappings",
+    "schemas": "class",
+    "seeds": "meta",
+    "typeorm": "database",
+    "websockets": "pipe"
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune"
+  }
 }
