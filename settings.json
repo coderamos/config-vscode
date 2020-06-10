@@ -6,13 +6,9 @@
   "editor.fontLigatures": true,
   "explorer.compactFolders": false,
   "editor.mouseWheelZoom": true,
-<<<<<<< HEAD
   // increases the font of the terminal
   "terminal.integrated.fontSize": 12,
   // apply vertical lines to remember to break lines in very large codes
-=======
-  "terminal.integrated.fontSize": 14,
->>>>>>> 3a5a960d3102ac36f47adf4161a70535c10d85be
   "editor.rulers": [80, 120],
   "editor.formatOnSave": true,
   "eslint.packageManager": "yarn",
