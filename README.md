@@ -72,6 +72,8 @@ or
 
 See also the files:
 
+> `config-overrides.js`
+
 > `.eslintrc.js`
 
 > `.prettierrc`

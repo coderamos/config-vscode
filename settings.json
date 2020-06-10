@@ -9,7 +9,7 @@
   "explorer.compactFolders": false,
   "editor.mouseWheelZoom": true,
   // increases the font of the terminal
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 12,
   // apply vertical lines to remember to break lines in very large codes
   "editor.rulers": [80, 120],
   "editor.formatOnSave": true,

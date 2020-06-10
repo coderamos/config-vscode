@@ -46,18 +46,24 @@ module.exports = {
       'warn',
       {
         newlinesBetween: 'always',
-        groups: ['/^react/', 'module', ['parent', 'sibling', 'index']],
+        groups: [
+          '/^react/',
+          '/^redux/',
+          'module',
+          '/^~/',
+          ['parent', 'sibling', 'index'],
+        ],
         alphabetize: { order: 'asc', ignoreCase: true },
       },
     ],
   },
   settings: {
     'import/resolver': {
-      node: {
-        paths: ['src'],
-      },
       'babel-plugin-root-import': {
         rootPathSuffix: 'src',
+      },
+      node: {
+        paths: ['src'],
       },
     },
   },
