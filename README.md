@@ -1,4 +1,4 @@
-# config | VSCODE
+# setup | VSCODE
 
 ## About This Project
 
