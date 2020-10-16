@@ -1,90 +1,31 @@
-# setup | VSCODE
+# SETUP | VSCODE
 
-## About This Project
+## ABOUT THIS PROJECT
 
-This project contains the configuration of my VS CODE.
+This project contains the configuration of my VSCode.
 
-## Avaliable Scripts
+## FONT USED
 
-### Run Project
-
-In the project directory, you can run:
-
-```
-yarn install
-```
-
-Learn how to install `yarn` through the [official documentation](https://yarnpkg.com/pt-BR/docs/install).
-
-## Font Used
-
-> [Fira Code V2](https://github.com/tonsky/FiraCode)
+[Fira Code V2](https://github.com/tonsky/FiraCode)
 
 or
 
-> [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+[JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
-## Extensions Used
+## EXTENSIONS USED
 
-> [bracket pair colorizer 2 (bracket theme)](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+[VSCode Extension Pack by CODERAMOS](https://marketplace.visualstudio.com/items?itemName=coderamos.vscode-extension-pack)
+> My personal collection of extension for front-end projects.
 
-> [codesnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+## VSCODE SETTINGS
 
-> [color highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+Open `.vscode/settings.json` file and replace global `settings.json` file.
 
-> [dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+## WINDOWS TERMINAL (WSL SETTINGS)
 
-> [dracula official (interface theme)](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+Open `.wsl/settings.json` file and replace windows terminal `settings` file.
 
-> [es7 react (snippet)](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-
-> [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-> [filesize](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)
-
-> [gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-
-> [import cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
-
-> [laserWave (interface theme)](https://marketplace.visualstudio.com/items?itemName=jaredkent.laserwave)
-
-> [material icon (icon theme)](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-
-> [monokai pro (interface theme)](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode)
-
-> [omni (interface theme)](https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni)
-
-> [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-> [rocketseat reactjs (snippet)](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactJS)
-
-> [rocketseat react native (snippet)](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactNative)
-
-> [shades of purple (interface theme)](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)
-
-> [sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
-
-> [vscode styled components (styled components theme)](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
-
-> [wakatime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
-
-## Other Settings
-
-See also the files:
-
-> `config-overrides.js`
-
-> `.eslintrc.js`
-
-> `.prettierrc`
-
-> `jsconfig.json`
-
-and
-
-> `settings.json` (to replace the vscode configuration file settings)
-
-## About Me
+## ABOUT ME
 
 My Github profile: https://github.com/coderamos/
 
