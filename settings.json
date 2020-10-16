@@ -1,98 +1,31 @@
 {
-  "workbench.colorTheme": "Omni",
-  "editor.fontSize": 12,
-  "editor.lineHeight": 24,
   "editor.fontFamily": "Fira Code Light",
   "editor.fontLigatures": true,
-  "explorer.compactFolders": false,
+  "editor.formatOnSave": false,
+  "editor.lineHeight": 24,
+  "editor.minimap.enabled": false,
   "editor.mouseWheelZoom": true,
+  "editor.rulers": [120],
+  "editor.tabSize": 2,
+  "explorer.compactFolders": false,
+  "presentationMode.zoomLevel": 2,
   "terminal.integrated.fontSize": 12,
-  "editor.rulers": [80, 120],
-  "editor.formatOnSave": true,
-  "eslint.packageManager": "yarn",
-  "prettier.singleQuote": true,
-  "[javascript]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    }
-  },
-
-  "[javascriptreact]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    }
-  },
-
-  "[typescript]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    }
-  },
-
-  "[typescriptreact]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    }
-  },
-
-  "files.associations": {
-    ".sequelizerc": "javascript",
-    ".stylelintrc": "json",
-    ".prettierrc": "json"
-  },
-
-  "editor.renderLineHighlight": "gutter",
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Omni",
   "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  "editor.tabSize": 2,
-  "window.zoomLevel": 0,
-  "extensions.ignoreRecommendations": true,
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
+  
+  "colorize.languages": [
+    "javascript",
+    "typescript",
+    "json",
+    "html",
+    "css",
+    "svg"
+  ],
 
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.enabled": false,
-  "breadcrumbs.enabled": true,
-  "git.enableSmartCommit": true,
-  "editor.parameterHints.enabled": false,
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": true,
-  "typescript.tsserver.log": "verbose",
-  "javascript.suggest.autoImports": false,
-  "typescript.suggest.autoImports": false,
-  "workbench.activityBar.visible": true,
-  "editor.minimap.enabled": false,
-
-  "material-icon-theme.folders.associations": {
-    "dtos": "typescript",
-    "dtosfakes": "mock",
-    "entities": "class",
-    "grpc": "pipe",
-    "http": "container",
-    "infra": "app",
-    "migrations": "tools",
-    "modules": "components",
-    "modulesimplementations": "core",
-    "protos": "pipe",
-    "repositories": "mappings",
-    "schemas": "class",
-    "seeds": "meta",
-    "typeorm": "database",
-    "websockets": "pipe"
-  },
-
-  "material-icon-theme.files.associations": {
-    "ormconfig.json": "database",
-    "tsconfig.json": "tune"
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
