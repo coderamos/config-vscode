@@ -3,6 +3,9 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/coderamos/.oh-my-zsh"
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export PATH=$PATH:$JAVA_HOME/bin
+
 # export PATH=/usr/local/share/npm/bin:$PATH
 
 # export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
@@ -12,6 +15,8 @@ export ZSH="/home/coderamos/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="spaceship"
+
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -101,12 +106,14 @@ source ~/.zsh-nvm/zsh-nvm.plugin.zsh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
 alias n12="nvm use 12"
+alias n14="nvm use 14"
 alias dk="docker stop $(docker ps -a -q)"   # dk = docker kill
 alias psa="sudo service postgresql start"   # psa = postgre start
 alias pso="sudo service postgresql stop"    # pso = postgre stop
 alias pst="sudo service postgresql status"  # pst = postgre status
+
+
 
 SPACESHIP_PROMPT_ORDER=(
   user          # Username section
@@ -151,3 +158,12 @@ zinit light-mode for \
     zinit-zsh/z-a-bin-gem-node
 
 ### End of Zinit's installer chunk
+
+export ANDROID_HOME=/home/coderamos/Android
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+export WSL_HOST=$(tail -1 /etc/resolv.conf | cut -d' ' -f2)
+export ADB_SERVER_SOCKET=tcp:$WSL_HOST:5037
